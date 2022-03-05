@@ -1,0 +1,26 @@
+// .upload-file {
+// background-color: rgba($color: #822894, $alpha: 0.7);
+.dzu-dropzone {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  min-height: 120px;
+  overflow: hidden;
+  margin: 0 auto;
+  position: relative;
+  box-sizing: border-box;
+  transition: all 0.15s linear;
+  border: 2px dashed #d9d9d9;
+  border-radius: 4px;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.dzu-previewImage {
+  width: auto;
+  max-height: 10em;
+  max-width: 10em;
+  border-radius: 0.6em;
+}
+// }
